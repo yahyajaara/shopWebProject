@@ -1,0 +1,1215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shoe Store</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./assets/Css/style.css" />
+  </head>
+  <body>
+    <div class="my-LogModel displayNone">
+      <div class="LogIn">
+        <button type="button" class="btn-close" aria-label="Close"></button>
+        <h2>Login</h2>
+        <form>
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password">
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="rememberMe">
+            <label class="form-check-label" for="rememberMe">Remember me</label>
+          </div>
+          <button type="submit" class="btn btn-primary loginn">Login</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="backImage">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="navbar-collapse first" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Faq</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Support</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Carrer</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="Working-hours first">
+            <span>Monday - Friday: 8:00 AM - 9:00 PM</span>
+          </div>
+          <div class="end-nav first">
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+              <li class="nav-item">
+                <a class="navbar-brand" href="#">
+                  <i class="fa-solid fa-magnifying-glass fa-fade fa-lg"></i>
+                  <span>Search</span>
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">USD</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-globe fa-lg"></i>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">English</a></li>
+                  <li><a class="dropdown-item" href="#">العربية</a></li>
+                  <li><a class="dropdown-item" href="#">Espanol</a></li>
+                  <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-user fa-lg"></i>
+                  <span>My Profile</span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item logIn" href="#">Log in</a></li>
+                  <li><a class="dropdown-item" href="#">Create Account</a></li>
+                  <li><a class="dropdown-item" href="wishList.html">Wish List</a></li>
+                  <li><a class="dropdown-item" href="#">compare</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="footswear container">
+        <div class="My-row">
+          <div class="footswear-start">
+            <ul class="navbar-nav d-flex flex-row justify-content-evenly align-items-center">
+              <li class="nav-item">
+                <img src="./assets/Photo/footswear.png" />
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle AllProduct" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">All Products</a>
+                <div class="dropdown-menu soso">
+                  <div class="hoverAllProduct">
+                    <div class="first-products">
+                      <h2>product</h2>
+                      <ul>
+                        <li><a class="dropdown-item" href="#">Air Max Alpha Trainer</a></li>
+                        <li><a class="dropdown-item" href="#">Air Max Flyknit Racer</a></li>
+                        <li><a class="dropdown-item" href="#">Jordan Delta 3 Low</a></li>
+                        <li><a class="dropdown-item" href="#">Nike Air Max 90 G</a></li>
+                        <li><a class="dropdown-item" href="#">Renew Elevate 3</a></li>
+                      </ul>
+                    </div>
+                    <div class="middel1-products">
+                      <h2>collection</h2>
+                      <ul>
+                        <li><a class="dropdown-item" href="#">Bestseller</a></li>
+                        <li><a class="dropdown-item" href="#">Casual</a></li>
+                        <li><a class="dropdown-item" href="#">Men</a></li>
+                        <li><a class="dropdown-item" href="#">New arrivals</a></li>
+                        <li><a class="dropdown-item" href="#">Women</a></li>
+                      </ul>
+                    </div>
+                    <div class="middel2-products">
+                      <h2>Products</h2>
+                      <ul>
+                        <li><a class="dropdown-item" href="#">Legacy Next Nature</a></li>
+                        <li><a class="dropdown-item" href="#">Jordan Delta 3 Low</a></li>
+                        <li><a class="dropdown-item" href="#">Renew Elevate 3</a></li>
+                        <li><a class="dropdown-item" href="#">Pegasus FlyEase</a></li>
+                        <li><a class="dropdown-item" href="#">Roshe G Next Nature</a></li>
+                      </ul>
+                    </div>
+                    <div class="end-products">
+                      <img src="./assets/Photo/article-pic2.webp" />
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">About us</a></li>
+                  <li><a class="dropdown-item" href="#">Contact</a></li>
+                  <li><a class="dropdown-item" href="#">Faq's</a></li>
+                  <li><a class="dropdown-item" href="#">Category</a></li>
+                  <li><a class="dropdown-item" href="#">Blog Page</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blogs</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Log in</a></li>
+                  <li><a class="dropdown-item" href="#">Create Account</a></li>
+                  <li><a class="dropdown-item" href="#">Whish List</a></li>
+                  <li><a class="dropdown-item" href="#">compare</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">All Categories</a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Log in</a></li>
+                  <li><a class="dropdown-item" href="#">Create Account</a></li>
+                  <li><a class="dropdown-item" href="#">Whish List</a></li>
+                  <li><a class="dropdown-item" href="#">compare</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footswear-end">
+            <div class="start-footswear-end d-flex flex-column">
+              <span>Call and make an appointment:</span>
+              <span>++00 544-213-615</span>
+            </div>
+            <div class="end-footswear-end">
+              <button type="button" onclick="window.location.href='cart.html'" class="btn position-relative">
+                <div class="counter-shoping">
+                  <i class="fa-solid fa-cart-shopping fa-fade fa-lg"></i>
+                  <div class="totalPrice">
+                    <span>USD</span>
+                    <span class="sum">0.00</span>
+                  </div>
+                </div>
+                <span class="number position-absolute top-10 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="headerSlider">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <div>
+                <p>Footwear</p>
+                <h1>Create a Tropical Shoes <br>in your home.</h1>
+                <p>Shoes play a crucial role in the world of fashion and personal style.<br>
+                   Different types of shoes, such as sneakers, heels, boots, flats, etc.,<br>
+                   are often associated with specific fashion trends and can be use...<br></p>
+                <div class="CheakAndPlar">
+                  <button class="Cheak">
+                    <span>Check More Products</span>
+                    <i class="fa-solid fa-bag-shopping"></i>
+                  </button>
+                  <div class="play">
+                    <a>
+                      <i class="fa-regular fa-circle-play fa-lg"></i>
+                      <span>Play Video</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <p>Footwear</p>
+              <h1>Fashionably Heeled <br><span>Shoe Lover's.</span></h1>
+              <p class="seconde">The history of shoes dates back thousands of years, and studying.<br>
+                 their evolution can be fascinating. From early rudimentary foot .,<br>
+                 coverings to the modern-day stylish footwear, the design,...<br></p>
+              <button class="CheakOut">
+                <span>Check More Products</span>
+                <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+            <div class="carousel-item">
+              <p>Footwear</p>
+              <h1>Step Up Your Style<br><span>Shoe Tips and Tricks.</span></h1>
+              <p>Shoes can carry cultural symbolism and meaning. For example, in<br>
+                 some cultures, removing shoes before entering a house is a sign of<br>
+                 respect while specific types of shoes may be associated with... <br></p>
+              <button class="CheakOut">
+                <span>Check More Products</span>
+                <i class="fa-solid fa-bag-shopping"></i>
+              </button>
+            </div>
+          </div>
+          <div class="line-3">
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active line" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2" class="line"></button>
+            <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3" class="line"></button>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="Bestsellers hidden">
+      <h2 class="header2">Bestsellers</h2>
+      <div class="container">
+        <div class="row" id="bestsellers-container">
+          <!-- Dynamic sellersProduct divs will be inserted here -->
+        </div>
+        <div class="ShoesShop hidden">
+          <div class="startShop">
+            <p>Shoes Shop</p>
+            <h2>Shoe Sense Your Guide <br>to Footwear Trends</h2>
+            <p>Shoes have appeared in various forms of art and literature, often symbolizing different themes like journeys, transformation, or social status.</p>
+            <button class="Cheak">
+              <span>Check More Products</span>
+              <i class="fa-solid fa-bag-shopping"></i>
+            </button>
+          </div>
+          <div class="endShop">
+            <img src="./assets/Photo/img1-removebg-preview.png" />
+          </div>
+        </div>
+        <div class="statistics hidden">
+          <div>
+            <h2>3000+</h2>
+            <p>orders in month</p>
+          </div>
+          <div>
+            <h2>17+</h2>
+            <p>shoes and other categories</p>
+          </div>
+          <div>
+            <h2>10+</h2>
+            <p>years of experience</p>
+          </div>
+          <div>
+            <h2>4.9</h2>
+            <p>happy clients and partners</p>
+          </div>
+        </div>
+        <div class="ShoesShop2 hidden">
+          <div class="startShop2">
+            <img src="./assets/Photo/shop21.png"/>
+            <div class="Shop2-Bestseller">
+              <p>Shoes Shop</p>
+              <h3>Bestseller</h3>
+              <p>Footwear is an essential part of fashion,<br>culture, and personal expression, and<br>the choice of footwear often reflects</p>
+              <button class="Showmore">
+                <span>Show more</span>
+              </button>
+            </div>
+          </div>
+          <div class="endShop2">
+            <div class="one">
+              <img src="./assets/Photo/shop22.png"/>
+              <div class="Shop2-Casual">
+                <p>Shoes Shop</p>
+                <h3>Casual</h3>
+                <p>Casual athletic shoes suitable,<br>for everyday wear and various<br>sports activities. Highly formal</p>
+                <button class="Showmore">
+                  <span>Show more</span>
+                </button>
+              </div>
+            </div>
+            <div class="tow">
+              <img src="./assets/Photo/shop23.png"/>
+              <div class="Shop2-Women">
+                <p>Shoes Shop</p>
+                <h3>Women</h3>
+                <p>Open-toed footwear with straps, or thongs, perfect for warm weather and casual occasions.</p>
+                <button class="Showmore">
+                  <span>Show more</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="Footwear-Fashion hidden">
+          <div class="row">
+            <div class="startFootwear">
+              <p>Shoes Shop</p>
+              <h2>The Shoe Safari Footwear Fashion</h2>
+              <p>Some people are passionate collectors of shoes, seeking rare or limited-edition pairs. Understanding the culture and mindset behind shoe collecting can shed light on consumer behaviour and the sneaker-head phenomenon.</p>
+              <button class="Cheak">
+                <span>Check more product</span>
+              </button>
+            </div>
+            <div class="endFootwear">
+              <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="sellersProduct swiper-slide">
+                    <img src="./assets/Photo/slider1-removebg-preview.png" class="card-img-top img5" alt="...">
+                    <div class="card-body">
+                      <div class="icone">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                      </div>
+                      <div class="Description-Shose">
+                        <h3 class="card-title">Roshe G Next nature</h3>
+                        <div class="star">
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>Shose</p>
+                        <p class="priceSum">USD 50.00</p>
+                        <span>Color: </span>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Choose the color you prefer</option>
+                          <option value="1">Grean</option>
+                          <option value="2">Blak</option>
+                          <option value="3">white</option>
+                        </select>
+                        <button class="Cart">
+                          <span>Add to cart</span>
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sellersProduct swiper-slide">
+                    <img src="./assets/Photo/slider2-removebg-preview.png" class="card-img-top img6" alt="...">
+                    <div class="card-body">
+                      <div class="icone">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                      </div>
+                      <div class="Description-Shose">
+                        <h3 class="card-title">Roshe G Next nature</h3>
+                        <div class="star">
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>Shose</p>
+                        <p class="priceSum">USD 50.00</p>
+                        <span>Color: </span>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Choose the color you prefer</option>
+                          <option value="1">Grean</option>
+                          <option value="2">Blak</option>
+                          <option value="3">white</option>
+                        </select>
+                        <button class="Cart">
+                          <span>Add to cart</span>
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sellersProduct swiper-slide">
+                    <img src="./assets/Photo/slider3-removebg-preview.png" class="card-img-top img7" alt="...">
+                    <div class="card-body">
+                      <div class="icone">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                      </div>
+                      <div class="Description-Shose">
+                        <h3 class="card-title">Roshe G Next nature</h3>
+                        <div class="star">
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>Shose</p>
+                        <p class="priceSum">USD 50.00</p>
+                        <span>Color: </span>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Choose the color you prefer</option>
+                          <option value="1">Grean</option>
+                          <option value="2">Blak</option>
+                          <option value="3">white</option>
+                        </select>
+                        <button class="Cart">
+                          <span>Add to cart</span>
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sellersProduct swiper-slide">
+                    <img src="./assets/Photo/slider4-removebg-preview.png" class="card-img-top img8" alt="...">
+                    <div class="card-body">
+                      <div class="icone">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                      </div>
+                      <div class="Description-Shose">
+                        <h3 class="card-title">Roshe G Next nature</h3>
+                        <div class="star">
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>Shose</p>
+                        <p class="priceSum">USD 50.00</p>
+                        <span>Color: </span>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Choose the color you prefer</option>
+                          <option value="1">Grean</option>
+                          <option value="2">Blak</option>
+                          <option value="3">white</option>
+                        </select>
+                        <button class="Cart">
+                          <span>Add to cart</span>
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="sellersProduct swiper-slide">
+                    <img src="./assets/Photo/slider5-removebg-preview.png" class="card-img-top img9" alt="...">
+                    <div class="card-body">
+                      <div class="icone">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-eye"></i></a>
+                        <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                      </div>
+                      <div class="Description-Shose">
+                        <h3 class="card-title">Roshe G Next nature</h3>
+                        <div class="star">
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                          <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p>Shose</p>
+                        <p class="priceSum">USD 50.00</p>
+                        <span>Color: </span>
+                        <select class="form-select" aria-label="Default select example">
+                          <option selected>Choose the color you prefer</option>
+                          <option value="1">Grean</option>
+                          <option value="2">Blak</option>
+                          <option value="3">white</option>
+                        </select>
+                        <button class="Cart">
+                          <span>Add to cart</span>
+                          <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="Frenzy-All-About">
+      <div class="div">
+        <p>Shoes Shop</p>
+        <h2>Footwear Frenzy All About<br>Shoes</h2>
+        <p>The history of shoes dates back thousands of years, and studying their evolution can be fascinating. From early rudimentary foot coverings to the modern-day stylish footwear, the design, materials, and purposes of shoes have gone through significant changes over time.</p>
+        <div class="play">
+          <a>
+            <i class="fa-regular fa-circle-play fa-lg"></i>
+            <span>Play Video</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="Featured-Product container hidden">
+      <div class="row">
+        <div class="timer">
+          <div class="container">
+            <div class="row"></div>
+          </div>
+        </div>
+        <div class="TopFeatured">
+          <h2>Discounted products</h2>
+          <div class="control">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active filter-button" id="pills-Bestseller-tab" data-bs-toggle="pill" data-bs-target="#pills-Bestseller" type="button" role="tab" aria-controls="pills-Bestseller" aria-selected="true">Bestseller</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link filter-button" id="pills-Casual-tab" data-bs-toggle="pill" data-bs-target="#pills-Casual" type="button" role="tab" aria-controls="pills-Casual" aria-selected="false">Casual</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link filter-button" id="pills-Women-tab" data-bs-toggle="pill" data-bs-target="#pills-Women" type="button" role="tab" aria-controls="pills-Women" aria-selected="false">Women</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link filter-button" id="pills-Men-tab" data-bs-toggle="pill" data-bs-target="#pills-Men" type="button" role="tab" aria-controls="pills-Men" aria-selected="false">Men</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="BottomFeatured">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-Bestseller" role="tabpanel" aria-labelledby="pills-Bestseller-tab" tabindex="0">
+              <div class="My-row">
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/chose1.png" class="card-img-top img1" alt="...">
+                  <div class="card-body">
+                    <div class="icone1">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Roshe G Next nature</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 50.00</p>
+                        <p class="oldPrice">USD 60.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/shose 3.png" class="card-img-top img2" alt="...">
+                  <div class="card-body">
+                    <div class="icone2">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Renew Elevate 3</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 90.00</p>
+                        <p class="oldPrice">USD 120.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/shose2.png" class="card-img-top img3" alt="...">
+                  <div class="card-body">
+                    <div class="icone3">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max Flyknit Racer</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price priceSum">
+                        <p class="newPrice">USD 100</p>
+                        <p class="oldPrice">USD 180</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/shose 4.png" class="card-img-top img4" alt="...">
+                  <div class="card-body">
+                    <div class="icone4">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max 40 Unlocked</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price priceSum">
+                        <p class="newPrice">USD 50.00</p>
+                        <p class="oldPrice">USD 60.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-Casual" role="tabpanel" aria-labelledby="pills-Casual-tab" tabindex="0">
+              <div class="My-row">
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/c1-removebg-preview.png" class="card-img-top imgc1" alt="...">
+                  <div class="card-body">
+                    <div class="icone1">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Roshe G Next nature</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 50.00</p>
+                        <p class="oldPrice">USD 60.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/c2-removebg-preview.png" class="card-img-top imgc2" alt="...">
+                  <div class="card-body">
+                    <div class="icone2">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Renew Elevate 3</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 150.00</p>
+                        <p class="oldPrice">USD 360.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/c3-removebg-preview.png" class="card-img-top imgc3" alt="...">
+                  <div class="card-body">
+                    <div class="icone3">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max Flyknit Racer</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 190.00</p>
+                        <p class="oldPrice">USD 300</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/c4-removebg-preview.png" class="card-img-top imgc4" alt="...">
+                  <div class="card-body">
+                    <div class="icone4">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max 40 Unlocked</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price priceSum">
+                        <p class="newPrice">USD 150</p>
+                        <p class="oldPrice">USD 240</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-Women" role="tabpanel" aria-labelledby="pills-Women-tab" tabindex="0">
+              <div class="My-row">
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/w1-removebg-preview.png" class="card-img-top imgw1" alt="...">
+                  <div class="card-body">
+                    <div class="icone1">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Roshe G Next nature</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 50.00</p>
+                        <p class="oldPrice">USD 60.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/w2-removebg-preview.png" class="card-img-top imgw2" alt="...">
+                  <div class="card-body">
+                    <div class="icone2">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Renew Elevate 3</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 100.00</p>
+                        <p class="oldPrice">USD 190.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/w3-removebg-preview.png" class="card-img-top imgw3" alt="...">
+                  <div class="card-body">
+                    <div class="icone3">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max Flyknit Racer</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 190.00</p>
+                        <p class="oldPrice">USD 280.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/w4-removebg-preview.png" class="card-img-top imgw4" alt="...">
+                  <div class="card-body">
+                    <div class="icone4">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max 40 Unlocked</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 210.00</p>
+                        <p class="oldPrice">USD 300.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="pills-Men" role="tabpanel" aria-labelledby="pills-Men-tab" tabindex="0">
+              <div class="My-row">
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/men1-removebg-preview.png" class="card-img-top imgm1" alt="...">
+                  <div class="card-body">
+                    <div class="icone1">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Roshe G Next nature</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 50.00</p>
+                        <p class="oldPrice">USD 60.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/men2-removebg-preview.png" class="card-img-top imgm2" alt="...">
+                  <div class="card-body">
+                    <div class="icone2">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Renew Elevate 3</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 100.00</p>
+                        <p class="oldPrice">USD 230.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/men3-removebg-preview.png" class="card-img-top imgm3" alt="...">
+                  <div class="card-body">
+                    <div class="icone3">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max Flyknit Racer</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 150.00</p>
+                        <p class="oldPrice">USD 280.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="sellersProduct">
+                  <img src="./assets/Photo/men4-removebg-preview.png" class="card-img-top imgm4" alt="...">
+                  <div class="card-body">
+                    <div class="icone4">
+                      <a href="#"><i class="fa-regular fa-heart"></i></a>
+                      <a href="#"><i class="fa-regular fa-eye"></i></a>
+                      <a href="#"><i class="fa-solid fa-right-left"></i></a>
+                    </div>
+                    <div class="Description-Shose">
+                      <h3 class="card-title">Air Max 40 Unlocked</h3>
+                      <div class="star">
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                      </div>
+                      <p>Shose</p>
+                      <div class="price">
+                        <p class="newPrice priceSum">USD 220.00</p>
+                        <p class="oldPrice">USD 380.00</p>
+                      </div>
+                      <span>Color: </span>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>Choose the color you prefer</option>
+                        <option value="1">Grean</option>
+                        <option value="2">Blak</option>
+                        <option value="3">white</option>
+                      </select>
+                      <button class="Cart">
+                        <span>Add to cart</span>
+                        <i class="fa-solid fa-bag-shopping"></i>
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer hidden">
+      <div class="container">
+        <div class="row">
+          <div class="startFooter">
+            <h3>footswear</h3>
+            <p><span>Monday - Friday:</span><br>8:00 AM - 9:00 PM</p>
+            <p>al role in the world of fashion and personal style. Different types of shoes, such as sneakers, heels, boots, flats, etc.</p>
+          </div>
+          <div class="endFooter">
+            <div class="nav-end-footer">
+              <h3 class="h31">SHOP</h3>
+              <ul>
+                <li><a href="#">Search</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Shipping & Delivery</a></li>
+                <li><a href="#">Terms & Conditions</a></li>
+              </ul>
+            </div>
+            <div class="nav-end-footer">
+              <h3 class="h32">ABOUT US</h3>
+              <ul>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Faqs</a></li>
+                <li><a href="#">category</a></li>
+                <li><a href="#">Blog Pagw</a></li>
+              </ul>
+            </div>
+            <div class="nav-end-footer">
+              <h3 class="h33">SHARE</h3>
+              <p>The history of shoes dates back thousands of years, and studying their evolution can be fascinating.</p>
+              <div class="Social">
+                <a target="_blank" href="https://www.instagram.com/yahya_jaara/"><i class="fa-brands fa-instagram fa-2xl"></i></a>
+                <a target="_blank" href="https://www.facebook.com/yahya.jaara"><i class="fa-brands fa-facebook-f fa-2xl"></i></a>
+                <a target="_blank" href="https://x.com/jaara_yahya"><i class="fa-brands fa-twitter fa-2xl"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up fa-fade fa-lg"></i></a>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="./assets/JS/main.js"></script>
+  </body>
+</html>
