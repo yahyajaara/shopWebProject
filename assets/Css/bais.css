@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/****************************************************************************************************/
+*
+{
+    margin:  0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/****************************************************************************************************/
+
+body
+{
+    background: repeating-linear-gradient( #2c2a2a, #1a1a19);
+    animation: darkRipple 8s infinite; 
+    height: 2000px;
+    font-family: Poppins, sans-serif;
+     
+}
+
+/****************************************************************************************************/
+
+html
+{
+    --mainfont:   "Poppins";
+    --primefont : "Inter";
+    --mainColor:  #ffbf00;
+    --primeColor: #FFFFFF;
+    --primeColor2: #2c2a2a;
+    
+}
+
+/****************************************************************************************************/
+
+a
+{
+    text-decoration: none;
+}
+
+hr {
+    border: none; /* Remove default border */
+    border-top: 3px solid var(--mainColor); /* Set a black top border */
+    margin: 10px 0; /* Optional: adjust spacing */
+}
+
+/****************************************************************************************************/
+
+ul
+{
+    list-style-type: none;
+}
+
+/****************************************************************************************************/
+
+.Mycontainer
+{
+    width:calc(100% - 150px);
+    margin: auto;
+}
+
+/****************************************************************************************************/
+
+.Myrow
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/****************************************************************************************************/
+
+.Mycol
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+   
+}
+
+/****************************************************************************************************/
