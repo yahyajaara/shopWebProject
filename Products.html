@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/Css/Products.css" />
+    <link rel="stylesheet" href="./assets/Css/bais.css" />
+
+</head>
+
+<body>
+
+    <nav></nav>
+
+
+    <main>
+
+        <div class="Mycontainer">
+
+            <div class="Mycol">
+
+                <div class="firstDiv">
+
+                    <a href="index.html">
+                        <i class="fa-solid fa-arrow-left fa-lg"></i>
+                        <span> Back To Home</span>
+                    </a>
+                </div>
+
+
+
+                <div class="secondDiv">
+
+                    <div class="Myrow">
+                        <h2>Producs</h2>
+                        <span class="number">(number)</span>
+                    </div>
+
+                </div>
+
+
+
+                <div class="thirdDiv">
+
+                    <div class="Myrow">
+
+                        <div class="thirdDiv-startDiv filter-sidebar">
+
+                            <h2>Filters</h2>
+
+                            <hr>
+
+                            <div class="filter-section">
+                                <button class="filter-toggle"> AVAILABILITY +</button>
+                                <div class="filter-content">
+                                    <label><input type="checkbox"> In stock (23)</label>
+                                    <label><input type="checkbox"> Out of stock (6)</label>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="filter-section">
+                                <button class="filter-toggle">PRICE +</button>
+                                <div class="filter-content">
+                                    <input type="range" min="0" max="1000" value="500">
+                                    <div class="price-range">
+                                        <span>$0</span> - <span>$1000</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="filter-section">
+                                <button class="filter-toggle">PRODUCT TYPE +</button>
+                                <div class="filter-content">
+                                    <label><input type="checkbox"> Type 1</label>
+                                    <label><input type="checkbox"> Type 2</label>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="filter-section">
+                                <button class="filter-toggle">BRAND +</button>
+                                <div class="filter-content">
+                                    <label><input type="checkbox"> Brand 1</label>
+                                    <label><input type="checkbox"> Brand 2</label>
+                                </div>
+                            </div>
+
+                            <hr>
+
+                            <div class="filter-section">
+                                <button class="filter-toggle">COLOR +</button>
+                                <div class="filter-content">
+                                    <label><input type="checkbox"> Red</label>
+                                    <label><input type="checkbox"> Blue</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="thirdDiv-endDiv">
+
+
+                            <div class="thirdDiv-endDiv-Top">
+
+                                <div class="MyrowTop">
+
+                                    <div class="py-4 list">
+                                        <!-- Responsive Button Group -->
+                                        <div class="btn-group flex-wrap flex-md-nowrap w-100" role="group"
+                                            aria-label="Basic radio toggle button group">
+
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1"
+                                                autocomplete="off" checked>
+                                            <label class="btn btn-outline-primary" for="btnradio1"><span>Home</span>
+                                            </label>
+
+                                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2"
+                                                autocomplete="off">
+                                            <label class="btn btn-outline-primary" for="btnradio2"><span>Products</span>
+                                            </label>
+
+
+                                        </div>
+                                    </div>
+
+                                    <div class="py-4 select">
+                                        <div class="g-3">
+                                            <!-- Full width on mobile, half width on medium+ screens -->
+                                            <div class="LabelAndSelect">
+                                                <label for="Select"> <span>Store By:</span> </label>
+                                                <select class="form-select" id="Select"
+                                                    aria-label="Default select example">
+                                                    <option selected>Open this select menu</option>
+                                                    <option value="1">One</option>
+                                                    <option value="2">Two</option>
+                                                    <option value="3">Three</option>
+                                                </select>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
+                            <div class="thirdDiv-endDiv-Under">
+
+                                <div class="MyrowUnder">
+
+                                    <div class="product-card">
+                                        <img src="./assets/Photo/chose1.png" class="card-img-top img1" alt="...">
+
+                                        <div class="product-info">
+                                            <div class="icons">
+                                                <a href="#"><i class="icon fa-regular fa-heart "></i></a>
+                                                <a href="#"><i class="icon fa-regular fa-eye"></i></a>
+                                                <a href="#"><i class="icon fa-solid fa-right-left"></i></a>
+                                            </div>
+
+                                            <h2>Roshe G Next nature</h2>
+
+                                            <div class="rating">
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+
+                                            <p class="category">Shose</p>
+                                            <p class="price">USD 50.00</p>
+
+                                            <label for="color">Color:</label>
+                                            <select id="color" name="color">
+                                                <option value="">Choose the color you prefer</option>
+                                                <option value="black">Black</option>
+                                                <option value="white">White</option>
+                                                <option value="blue">Blue</option>
+                                            </select>
+
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <img src="./assets/Photo/chose1.png" class="card-img-top img1" alt="...">
+
+                                        <div class="product-info">
+                                            <div class="icons">
+                                                <a href="#"><i class="icon fa-regular fa-heart "></i></a>
+                                                <a href="#"><i class="icon fa-regular fa-eye"></i></a>
+                                                <a href="#"><i class="icon fa-solid fa-right-left"></i></a>
+                                            </div>
+
+                                            <h2>Roshe G Next nature</h2>
+
+                                            <div class="rating">
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+
+                                            <p class="category">Shose</p>
+                                            <p class="price">USD 50.00</p>
+
+                                            <label for="color">Color:</label>
+                                            <select id="color" name="color">
+                                                <option value="">Choose the color you prefer</option>
+                                                <option value="black">Black</option>
+                                                <option value="white">White</option>
+                                                <option value="blue">Blue</option>
+                                            </select>
+
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card">
+                                        <img src="./assets/Photo/chose1.png" class="card-img-top img1" alt="...">
+
+                                        <div class="product-info">
+                                            <div class="icons">
+                                                <a href="#"><i class="icon fa-regular fa-heart "></i></a>
+                                                <a href="#"><i class="icon fa-regular fa-eye"></i></a>
+                                                <a href="#"><i class="icon fa-solid fa-right-left"></i></a>
+                                            </div>
+
+                                            <h2>Roshe G Next nature</h2>
+
+                                            <div class="rating">
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+
+                                            <p class="category">Shose</p>
+                                            <p class="price">USD 50.00</p>
+
+                                            <label for="color">Color:</label>
+                                            <select id="color" name="color">
+                                                <option value="">Choose the color you prefer</option>
+                                                <option value="black">Black</option>
+                                                <option value="white">White</option>
+                                                <option value="blue">Blue</option>
+                                            </select>
+
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" >
+                                        <img src="./assets/Photo/chose1.png" class="card-img-top img1" alt="...">
+
+                                        <div class="product-info">
+                                            <div class="icons">
+                                                <a href="#"><i class="icon fa-regular fa-heart "></i></a>
+                                                <a href="#"><i class="icon fa-regular fa-eye"></i></a>
+                                                <a href="#"><i class="icon fa-solid fa-right-left"></i></a>
+                                            </div>
+
+                                            <h2>Roshe G Next nature</h2>
+
+                                            <div class="rating">
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+
+                                            <p class="category">Shose</p>
+                                            <p class="price">USD 50.00</p>
+
+                                            <label for="color">Color:</label>
+                                            <select id="color" name="color">
+                                                <option value="">Choose the color you prefer</option>
+                                                <option value="black">Black</option>
+                                                <option value="white">White</option>
+                                                <option value="blue">Blue</option>
+                                            </select>
+
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                    <div class="product-card" >
+                                        <img src="./assets/Photo/chose1.png" class="card-img-top img1" alt="...">
+
+                                        <div class="product-info">
+                                            <div class="icons">
+                                                <a href="#"><i class="icon fa-regular fa-heart "></i></a>
+                                                <a href="#"><i class="icon fa-regular fa-eye"></i></a>
+                                                <a href="#"><i class="icon fa-solid fa-right-left"></i></a>
+                                            </div>
+
+                                            <h2>Roshe G Next nature</h2>
+
+                                            <div class="rating">
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                                <i class="fa-regular fa-star"></i>
+                                            </div>
+
+                                            <p class="category">Shose</p>
+                                            <p class="price">USD 50.00</p>
+
+                                            <label for="color">Color:</label>
+                                            <select id="color" name="color">
+                                                <option value="">Choose the color you prefer</option>
+                                                <option value="black">Black</option>
+                                                <option value="white">White</option>
+                                                <option value="blue">Blue</option>
+                                            </select>
+
+                                            <button class="add-to-cart">
+                                                <span>Add to cart</span>
+                                                <i class="fa-solid fa-bag-shopping"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </main>
+
+
+    <footer></footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <script src="./assets/JS/Product.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,370 @@
+main .firstDiv {
+    margin-top: 20px;
+    width:fit-content;
+}
+
+
+
+main .firstDiv a {
+    font-size: 22px;
+    color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+main .firstDiv a:hover {
+    color: var(--mainColor);
+}
+
+/***********************************************/
+
+main .secondDiv {
+    font-size: 30px;
+    color: var(--mainColor);
+    
+}
+
+main .secondDiv .Myrow {
+    justify-content: start;
+    gap: 10px;
+}
+
+/***********************************************/
+
+main .thirdDiv
+{
+    background: var(--mainColor);
+    border-radius: 40px;
+
+}
+
+
+main .thirdDiv .Myrow
+{
+    justify-content: start;
+    align-items: start;
+    gap: 50px;
+    flex-wrap: nowrap;
+}
+
+
+
+main .thirdDiv button
+{
+    font-size: 18px;
+}
+
+main .thirdDiv label
+{
+    font-size: 15px;
+}
+
+
+
+
+.filter-sidebar {
+    width: 400px;
+    height: 1100px;
+    padding: 20px;
+    background: repeating-linear-gradient( #2c2a2a, #323232);
+    border-right: 4px solid #ddd;
+    border-top: 4px solid #ddd;
+    border-bottom: 4px solid #ddd;
+    border-radius: 30px;
+}
+
+.filter-sidebar h2 {
+    margin-bottom: 20px;
+     font-size: 35px;
+     color: var(--primeColor);
+}
+
+.filter-section {
+    margin-bottom: 15px;
+   
+}
+
+.filter-toggle {
+    background: none;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+     color: var(--primeColor);
+}
+
+.filter-toggle:hover {
+    color:var(--mainColor);
+}
+
+.filter-content {
+    display: none;
+    padding: 10px 0;
+}
+
+.filter-content.active {
+    display: block;
+}
+
+.filter-content label {
+    display: block;
+    margin: 5px 0;
+    color: var(--primeColor);
+}
+
+.filter-content input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.price-range {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+input[type="range"] {
+    width: 100%;
+}
+
+
+.thirdDiv-endDiv
+{
+     flex-grow: 1;
+}
+
+.thirdDiv-endDiv-Top
+{
+    border-bottom: 2px solid var(--primeColor2);
+}
+
+
+.thirdDiv-endDiv-Top .MyrowTop
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.btn-outline-primary
+{
+    color: var(--primeColor2);
+    border: 2px solid var(--primeColor2);
+    border-radius: 20px 10px;
+    padding: 10px;
+    width: 120px;
+    font-size: 18px;
+}
+
+.btn-group span
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-check:checked+.btn
+{
+    background-color:var(--primeColor2);
+    border-color: var(--primeColor);
+    color: var(--primeColor);
+}
+
+.btn-outline-primary:hover
+{
+     border-color: var(--primeColor) !important ; 
+     color: var(--primeColor) !important;
+     background: var(--primeColor2) !important;
+}
+
+
+.select
+{
+    margin-right: 40px;
+}
+
+.form-select 
+{
+    width:auto;
+}
+
+.LabelAndSelect
+{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.LabelAndSelect span
+{
+    color: var(--primeColor2);
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+
+.LabelAndSelect select 
+{
+    color: var(--primeColor2);
+    font-size: 16px; 
+    padding: 7px;
+    box-shadow: ;
+    margin: 5px 0 10px;
+    border: 2px solid #ccc;
+    border-radius: 15px;      
+    
+}
+
+.LabelAndSelect select :hover
+{
+     border: 3px solid var(--primeColor2);
+}
+
+
+
+
+.thirdDiv-endDiv-Under
+{
+   
+   
+}
+
+.thirdDiv-endDiv-Under .MyrowUnder
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+}
+
+
+
+/***********************************************/
+
+.product-card {
+    width: 300px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.card-img-top {
+    width: 150px;
+    height: auto;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 88%;
+    left: 25%;
+}
+
+ .product-card:hover img
+{
+   transform:translateX(80px);
+   transition: 1.8s;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+    width: 100%;
+    background:var(--primeColor);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+}
+.product-card .icons {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.product-card .icon {
+    padding: 7px;
+    color: black;
+    background-color: var(--mainColor);
+    border-radius: 20px;
+    margin: 0 5px;
+}
+
+.product-card h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin: 0 0 10px;
+    color: var(--primeColor2);
+}
+
+.product-card .rating {
+    font-size: 20px;
+    color: var(--mainColor);
+    margin-bottom: 10px;
+    
+}
+
+.product-card .rating  > *:not(:first-child) {
+    margin: 0 5px;
+    
+}
+
+.category, .price {
+    font-size: 16px;
+    color: var(--primeColor2);
+    margin: 5px 0;
+}
+
+.product-card label {
+    font-size: 16px;
+    color: var(--primeColor2);
+}
+
+.product-card select {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0 10px;
+    font-size: 14px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+}
+
+.product-card select:hover
+{
+     border: 3px solid var(--primeColor2);                      
+}
+
+.product-card .add-to-cart {
+    background-color: var(--mainColor);
+    color: var(--primeColor2);
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 15px;
+}
+
+.product-card .add-to-cart:hover {
+    background-color: var(--primeColor2);
+    color: var(--primeColor);
+}
